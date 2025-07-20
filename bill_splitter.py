@@ -12,7 +12,7 @@ def bill_spitter(number, names, total_bill):
     if len(names) == number:
         print(f'\nTotal bill: {total_bill}\nPeople: {names_of_the_group_members}\n\nEach person owes: {split}\n')
         for name in names:
-             print(f"{name.strip()} owes: {round(split, 2)}")
+            print(f"{name.strip()} owes: {round(split, 2)}")
     else:
         print(f'Name provided doesn\'t with the number of people in the group!' )
     
